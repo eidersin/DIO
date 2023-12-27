@@ -28,8 +28,8 @@
                                         <fieldset>
                                             <legend>Dados Pessoais</legend>
                                             <div id="dados-pessoais" class="row">
-                                               <label for="name">Nome:</label><input type="text" name="name" id="name">
-                                               <label  for="email">E-mail:</label><input type="email" name="email" id="email">
+                                               <label for="name">*Nome:</label><input type="text" name="name" id="name" required>
+                                               <label  for="email">*E-mail:</label><input type="email" name="email" id="email" required>
                                             </div>
                                             <div id="dados-empresa" class="row">
                                                 <label for="profissao">Profissão:</label><input type="text" name="profissao" id="profissao">
@@ -38,32 +38,32 @@
                                         <fieldset>
                                             <legend>Endereço</legend>
                                             <div id="endereco" class="row">
-                                                <label for="endereco">Endereço:</label><input type="text" name="endereco" id="endereco">
+                                                <label for="endereco">*Endereço:</label><input type="text" name="endereco" id="endereco" required>
                                                 <label for="numero">Número:</label><input type="number" name="numero" id="numero" min="0" style="width: 50px;" width="10">
                                             </div>
                                             <div id="bairro" class="row">
-                                                <label for="bairro">Bairro:</label><input type="text" name="bairro" id="bairro">
+                                                <label for="bairro">*Bairro:</label><input type="text" name="bairro" id="bairro" required>
                                             </div>
                                             <div id="uf" class="row">
-                                                <label for="cidade">Cidade/UF: </label><input type="text" name="cidade" id="cidade">
+                                                <label for="cidade">*Cidade/UF: </label><input type="text" name="cidade" id="cidade" required>
                                             </div>
                                         </fieldset>
                                         <fieldset>
                                             <legend>Contato</legend>
                                             <div id="contato" class="row">
-                                                <label for="celular">Celular:</label><input type="number" name="celular" id="celular">
+                                                <label for="celular">*Celular:</label><input type="number" name="celular" id="celular" required>
                                                 <label for="whatapp">Whatsapp:</label><input type="number" name="whatsapp" id="whatsapp">
                                             </div>
                                         </fieldset>
                                         <fieldset>
-                                            <legend>Mensagem</legend>
+                                            <legend>*Mensagem</legend>
                                             <div id="contato" class="row">
-                                                <textarea name="" id="" cols="30" rows="5"></textarea>
+                                                <textarea name="" id="" cols="30" rows="5" required></textarea>
                                             </div>
                                         </fieldset>
                                     <div class="submit">
                                         <input class="botao-form" type="reset" value="Limpar">
-                                        <input class="botao-form" type="submit" value="Enviar formulário" onclick="alert('Formulário enviado com sucesso')" value="Clique aqui">
+                                        <input class="botao-form" type="submit" value="Enviar formulário" onclick="alert('Seus dados estão corretos?')">
                                     </div>
                                 </form>
                             </div>
