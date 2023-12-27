@@ -100,8 +100,6 @@ a:hover{
     background-color: #FF7A01;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
     padding: 15px
-
-    
 }
 .botao:hover{
     background-color: #ffffff;
@@ -171,4 +169,84 @@ a:hover{
     font-weight: 600;
     border-top: solid 2px #e7e7e7;
     color: #565656;
+}
+.h1-atendimento{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.atendimento {
+    display: flex;
+    justify-content: center;
+}
+th {
+    font-size: larger;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+    border-width: 2px;
+}
+tr {
+    font-size: large;
+    text-align: left;
+}
+td {
+    text-align: left;
+    border-bottom: 1px solid #000000;
+    border-width: 1px;
+}
+table{
+    width: 1080px;
+}
+.title{
+    text-transform: uppercase;
+    color: #FF7A01;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.place {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.row{
+    margin: 10px;
+    margin-top: 2px;
+}
+.submit{
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: right;
+}
+label{
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 1px;
+}
+fieldset{
+    margin: 15px 0;
+    border-radius: 10px;
+    border-color: lightgray;
+}
+.fieldset2{
+    border-color: rgb(5, 5, 5);
+}
+textarea{
+    width: 969px;
+    height: 62px;
+}
+.div-all{
+    margin: 5px;
+}
+.botao-form{
+    border: solid 1px #FF7A01;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #FF7A01;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    padding: 15px
+}
+.botao-form:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
