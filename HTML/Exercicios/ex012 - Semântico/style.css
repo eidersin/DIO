@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.imagem {
+    width: 30;
+    display: flex;
+    justify-content: left;
+}
+.texto-img {
+    padding-left: 20px;
+    text-align: justify;
+    width: 30%;
+}
