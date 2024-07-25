@@ -1,0 +1,28 @@
+    body{
+        background-color: #FFCC00;
+    }
+table {
+    -webkit-box-shadow: 4px 5px 6px 5px rgba(130,130,130,0.44); 
+    box-shadow: 4px 5px 6px 5px rgba(130,130,130,0.44);
+    border: solid 1px gray;
+    }
+table thead th {
+    background-color: black;
+    color: white;
+    }
+table tfoot td {
+    background-color: black;
+    color: white;
+    }
+table tbody tr:nth-child(even) td {
+    background-color: #DFB300;
+    }
+table tbody tr:hover td {
+    background-color: #fff9c1;
+    cursor: pointer;
+    }
+    caption{
+        background-color: black;
+        color: white;
+        font-size: larger;
+    }

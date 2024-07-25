@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com Tags Form</title>
+</head>
+<body>
+<ul><li><h3 id="button">Tag Button e seus tipos</h3></li>
+<ol>
+<form method="get">
+    <p>
+        <label for="name">Nome: </label><input type="text" name="name" id="name"><br>
+        <label for="age">Idade: </label><input type="age" name="age" id="age"><br>
+        <label for="password">Senha: </label><input type="password" name="password" id="password"><br>
+    </p>
+    <input type="button" onmouseover="alert('Teste de passar o mouse no button')" value="Passe o mouse aqui"> <br>
+    <input type="button" onclick="alert('Teste de clique no button')" value="Clique aqui"> <br>
+    <input type="reset" value="Limpar campos"> <br>
+    <input type="submit" value="Enviar"> <br>
+    <input type="submit" onclick="alert('Seus dados estão corretos?')"  value="Enviar com confirmação">
+</form>
+</ol></ul>
+</body>
+</html>

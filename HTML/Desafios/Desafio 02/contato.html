@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body> 
+          <div class="main">
+                <div class="content">
+                    <div class="top-menu">
+                        <img style="padding-right: 80px;" src="./assets/images/imagens/logo.png" alt="">
+                        <a href="./index.html">Página Principal</a>
+                        <a href="./sobre.html">Sobre a clínica</a>
+                        <a href="./horarios.html">Horário de Atendimento</a>
+                        <a style="color: #FF7A01" href="./contato.html">Contato</a>
+                    </div>
+                    <div><img class="imagem-top" src="./assets/images/imagens/bannerpprontosocorro.jpg" alt=""></div>
+                    <div class="row">
+                            <div>
+                                <div class="title">Estamos a sua disposição</div>
+                            </div>
+                            <div class="form-container">
+                                <form action="./contato.html" method="get">
+                                        <legend>Envie sua mensagem preenchendo o formulário abaixo:</legend>
+                                        <fieldset>
+                                            <legend>Dados Pessoais</legend>
+                                            <div id="dados-pessoais" class="row">
+                                               <label for="name">*Nome:</label><input type="text" name="name" id="name" required>
+                                               <label  for="email">*E-mail:</label><input type="email" name="email" id="email" required>
+                                            </div>
+                                            <div id="dados-empresa" class="row">
+                                                <label for="profissao">Profissão:</label><input type="text" name="profissao" id="profissao">
+                                            </div>
+                                        </fieldset>
+                                        <fieldset>
+                                            <legend>Endereço</legend>
+                                            <div id="endereco" class="row">
+                                                <label for="endereco">*Endereço:</label><input type="text" name="endereco" id="endereco" required>
+                                                <label for="numero">Número:</label><input type="number" name="numero" id="numero" min="0" style="width: 50px;" width="10">
+                                            </div>
+                                            <div id="bairro" class="row">
+                                                <label for="bairro">*Bairro:</label><input type="text" name="bairro" id="bairro" required>
+                                            </div>
+                                            <div id="uf" class="row">
+                                                <label for="cidade">*Cidade/UF: </label><input type="text" name="cidade" id="cidade" required>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset>
+                                            <legend>Contato</legend>
+                                            <div id="contato" class="row">
+                                                <label for="celular">*Celular:</label><input type="number" name="celular" id="celular" required>
+                                                <label for="whatapp">Whatsapp:</label><input type="number" name="whatsapp" id="whatsapp">
+                                            </div>
+                                        </fieldset>
+                                        <fieldset>
+                                            <legend>*Mensagem</legend>
+                                            <div id="contato" class="row">
+                                                <textarea name="" id="" cols="30" rows="5" required></textarea>
+                                            </div>
+                                        </fieldset>
+                                    <div class="submit">
+                                        <input class="botao-form" type="reset" value="Limpar">
+                                        <input class="botao-form" type="submit" value="Enviar formulário" onclick="alert('Seus dados estão corretos?')">
+                                    </div>
+                                </form>
+                            </div>
+                    </div>
+                    <div class="icones-container">
+                        <div class="icon-wrapper">
+                            <div class="circle"> <img src="./assets/images/icones/referencia.png" alt=""></div>
+                            <div class="text">Referência em atendimento</div>
+                        </div>
+                        <div class="icon-wrapper">
+                            <div class="circle"><img src="./assets/images/icones/hosp.png"></div>
+                            <div class="text">50 Anos de muita confiança</div>
+                        </div>
+                        <div class="icon-wrapper">
+                            <div class="circle"><img src="./assets/images/icones/estrutura.png"></div>
+                            <div class="text">Completa estrutura de atendimento</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="map-responsive"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30575.673195057458!2d-49.31778213411874!3d-16.678927531892406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef4006fc7882b%3A0xf063221cedb80c2a!2sHospital%20Samaritano%20de%20Goi%C3%A2nia!5e0!3m2!1spt-BR!2sbr!4v1703521425050!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

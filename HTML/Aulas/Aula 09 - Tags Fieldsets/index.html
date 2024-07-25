@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com Tags Form</title>
+    <style>
+        .row{
+            margin: 5px;
+        }
+        .submit{
+            padding-top: 10px;
+            padding-left: 10px;
+            text-align: right;
+        }
+        label{
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 1px;
+        }
+        fieldset{
+            margin: 15px 0;
+            border-radius: 10px;
+            border-color: lightgray;
+        }
+        .fieldset2{
+            border-color: rgb(5, 5, 5);
+        }
+        .div-all{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="modulo2">Módulo 2 - Estruturando seu HTML + Formatações</h1>
+
+    <p><h2>Índice</h2></p>
+<ul>
+    <li><h3 id="form">FIELDSETS</h3></li>
+</ul>
+    <h1>Formulário de cadastro</h1>
+    <div class="div-all">
+        <fieldset class="fieldset2">
+            
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div id="dados-pessoais" class="row">
+                       <label for="name">Nome:</label><input type="text" name="name" id="name">
+                       <label  for="email">E-mail:</label><input type="email" name="email" id="email">
+                    </div>
+                    <div id="dados-empresa" class="row">
+                        <label for="profissao">Profissão:</label><input type="text" name="profissao" id="profissao">
+                        <label for="empresa">Empresa:</label><input type="text" name="empresa" id="empresa">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <div id="endereco" class="row">
+                        <label for="endereco">Endereço:</label><input type="text" name="endereco" id="endereco">
+                        <label for="numero">Número:</label><input type="number" name="numero" id="numero" min="0" style="width: 50px;" width="10">
+                    </div>
+                    <div id="bairro" class="row">
+                        <label for="bairro">Bairro:</label><input type="text" name="bairro" id="bairro">
+                    </div>
+                    <div id="uf" class="row">
+                        <label for="cidade">Cidade/UF: </label><input type="text" name="cidade" id="cidade">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Contato</legend>
+                    <div id="contato" class="row">
+                        <label for="celular">Celular:</label><input type="tel" name="celular" id="celular">
+                        <label for="whatapp">Whatsapp:</label><input type="tel" name="whatsapp" id="whatsapp">
+                    </div>
+                    <div id="contato-link" class="row">
+                        <label for="linkedin">Linkedin:</label><input type="text" name="linkedin" id="linkedin">
+                        <label for="github">Github:</label><input type="text" name="github" id="github">
+                    </div>
+                </fieldset>
+                <div class="submit">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar formulário">
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+html {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+
+}
+body {
+    width: 1080px;
+
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.imagem {
+    width: 30;
+    display: flex;
+    justify-content: left;
+}
+.texto-img {
+    padding-left: 30px;
+    text-align: justify;
+    padding-right: 10px;
+
+}
+.texto {
+    padding-right: 10px;
+    text-align: justify;
+}

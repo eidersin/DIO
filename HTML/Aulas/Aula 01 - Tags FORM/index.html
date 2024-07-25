@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com Tags Form</title>
+</head>
+<body>
+    <h1 id="modulo2">Módulo 2 - Trabalhando com Formulários</h1>
+
+    <p><h2>Índice</h2></p>
+<ul><li><h3 id="form">Diferença entre GET e POST</h3></li></ul>
+        <ol>
+        <p><li>Método GET:</li></p>
+        <ul>
+        <li>Utilizado para solicitar dados do servidor.</li>
+        <li>Os parâmetros são anexados à URL na forma de uma string de consulta (query string).</li>
+        <li>Limitado em termos de quantidade de dados que pode enviar.</li>
+        <li>Os dados são visíveis na URL, o que pode representar um problema de segurança ao lidar com informações sensíveis.</li>
+        <pre>
+        <strong>Exemplo:</strong>
+        &lt;form action="/exemplo" method="GET"&gt;
+        &lt;label for="nome">Nome:&lt;/label&gt;
+        &lt;input type="text" id="nome" name="nome"&gt;
+        &lt;input type="submit" value="Enviar"&gt;
+        &lt;/form&gt;
+        <form action="/exemplo" method="get">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <input type="button" value="Enviar">
+        A URL resultante pode ser algo como /exemplo?nome=valorDigitado.
+        </form>
+        </pre>
+        </ul>
+        <p><li>Método POST:</li></p>
+        <ul>
+        <li>Utilizado para enviar dados ao servidor de forma mais segura e eficiente.</li>
+        <li>Os parâmetros são enviados no corpo da requisição HTTP, não na URL.</li>
+        <li>Pode enviar uma quantidade maior de dados em comparação com o método GET.</li>
+        <li>Mais apropriado para o envio de dados sensíveis, como senhas.</li>
+        <pre>
+        <strong>Exemplo:</strong>
+        &lt;form action="/exemplo" method="POST"&gt;
+        &lt;label for="nome">Nome:&lt;/label&gt;
+        &lt;input type="text" id="nome" name="nome"&gt;
+        &lt;input type="submit" value="Enviar"&gt;
+        &lt;/form&gt;
+        <form action="/exemplo" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <input type="button" value="Enviar">
+        Os dados são enviados no corpo da requisição, não visíveis na URL.
+        </form>
+        </pre>
+        Em resumo, o método GET é adequado para solicitar dados do servidor e tem suas limitações em termos de quantidade e segurança dos dados. Já o método POST é mais apropriado para enviar dados ao servidor, especialmente dados sensíveis, e permite o envio de uma quantidade maior de informações.
+        </ul>
+        </ol>
+        
+</ul>
+</body>
+</html>
