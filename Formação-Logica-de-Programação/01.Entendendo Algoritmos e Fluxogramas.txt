@@ -1,0 +1,107 @@
+Algoritmos:
+
+    Um algoritmo é como uma receita de bolo. Quando você quer fazer um bolo, você segue passos específicos, como misturar os ingredientes, colocar no forno, e esperar o bolo assar.
+
+    Do mesmo jeito, um algoritmo é uma sequência de passos que um computador segue para resolver um problema ou fazer alguma tarefa. É só um jeito de dizer ao computador o que ele deve fazer, passo a passo, para chegar a um resultado. Então, um algoritmo é uma receita para o computador!
+
+
+
+
+
+Estrutura de um programa:
+
+    As features (ou funcionalidades) em um aplicativo são as diferentes tarefas ou funções que o aplicativo pode realizar. Por exemplo, se um aplicativo de câmera tem uma funcionalidade de zoom, essa é uma feature. As features podem variar dependendo do aplicativo e do seu propósito.
+
+
+
+
+
+Tipos de dados e variáveis:
+
+    O que são variáveis?
+        Variáveis são como caixinhas onde podemos armazenar diferentes tipos de informações, como números, palavras ou listas, dentro de um programa de computador. Cada variável tem um nome que usamos para acessar e manipular o conteúdo que está guardado dentro dela.
+
+    Como utilizar variáveis?
+        Para usar variáveis, primeiro precisamos declará-las com um nome específico e, opcionalmente, atribuir um valor inicial. Por exemplo:
+
+        # Exemplo em JS
+
+        declarando variáveis
+            console.log("Digita o nome do seu jogador")
+
+            //declara uma variável
+            let nickname = "Maria mestra do Pikachu"
+
+            //concantenando uma mensagem fixa + uma variável
+            console.log("Bem vinda " + nickname)
+            console.log(nickname + " entrou no servidor")
+
+
+        declarando constantes
+            const notificacao = "Pokemon Go diz: "
+
+            //saida
+            console.log(notificacao + "tem um novo pokemon na região")
+            console.log(notificacao + "você foi derrotado por um líder")
+
+        
+        Tipos variáveis
+            string - são variaveis que armazenam texto
+            number - são variaveis que armazenam números**
+            boolean - são variaveis lógicas, que armazenam o valor de ligado ou desligado (true/false)
+
+            Outros tipos de variáveis:
+
+            Tipo de Variável                Descrição
+            Variáveis numéricas             São usadas para armazenar valores numéricos.
+            Inteiro                         Armazena números inteiros, como 1, 10, -5.
+            Ponto flutuante ou decimal      Armazena números com casas decimais, como 3.14, -0.5.
+            Números complexos               Armazena números complexos, como 2+3j.
+            Variáveis de texto              Usadas para armazenar sequências de caracteres.
+            String                          Armazena uma sequência de caracteres, como "Olá, mundo!"
+            Caractere                       Armazena um único caractere, como 'a', 'X', '@'.
+            Variáveis lógicas               Usadas para armazenar valores de verdadeiro ou falso.
+            Booleano                        Armazena os valores True ou False.
+
+            Variáveis de data e hora        Utilizadas para representar datas e horários.
+            Data                            Armazena datas, no formato AAAA-MM-DD.
+            Hora                            Armazena horários, no formato HH:MM:SS.
+
+    Assim, variáveis nos permitem armazenar e acessar informações de forma flexível em nossos programas.
+
+
+
+
+
+Vetores e matrizes
+
+    O que são vetores?
+        Vetores são conjuntos de números organizados em uma única linha ou coluna. Eles são usados para representar grandezas que possuem magnitude e direção, como velocidade e força.
+
+        Quando utilizar vetores?
+        Vetores são úteis quando precisamos representar e manipular múltiplas quantidades de dados de forma organizada. Por exemplo, em física, para representar a velocidade e a direção de um objeto em movimento, usamos um vetor.
+
+        Vetores são utilizados para armazenar uma coleção ordenada de elementos, geralmente de um único tipo de dado (como números inteiros ou ponto flutuante), em uma dimensão.
+
+            let nomesPokemon = ["Pikachu" , "Chamander", "Bulbassaur"]
+
+    O que são matrizes?
+        Matrizes são conjuntos retangulares de números organizados em linhas e colunas. Cada elemento da matriz pode ser identificado por sua posição única na matriz.
+
+        Quando utilizar matrizes?
+        Matrizes são utilizadas para representar dados que possuem múltiplas dimensões ou para realizar operações matemáticas complexas, como transformações lineares, sistemas de equações e representação de imagens.
+
+        Matrizes são estruturas de dados bidimensionais que organizam os dados em linhas e colunas, permitindo assim representar tabelas ou grids de informações.
+
+            let timePokemon = [
+                ["pikachu", "M", 1],
+                ["Chamander", "F", 3]
+                ]
+
+    Resumidamente, vetores são usados para representar grandezas unidimensionais, enquanto matrizes são utilizadas para representar dados bidimensionais ou realizar operações matemáticas mais complexas.
+
+    Essas estruturas são essenciais em programação para resolver problemas que envolvem manipulação de dados multidimensionais, operações matemáticas, processamento de imagens, entre outros.
+
+
+
+

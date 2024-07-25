@@ -1,0 +1,47 @@
+Estruturas condicionais são componentes fundamentais em programação que permitem executar diferentes blocos de código com base em condições específicas. Elas são usadas para tomar decisões dentro do código, possibilitando que ele reaja de maneira diferente dependendo dos valores das variáveis ou do resultado de expressões lógicas.
+
+    Estruturas Condicionais Básicas: 
+        if: Executa um bloco de código se a condição for verdadeira.
+        else if: Avalia uma nova condição se as anteriores forem falsas.
+        else: Executa um bloco de código se todas as condições anteriores forem falsas.
+
+
+            1. if: Avalia uma condição. Se a condição for verdadeira, executa o bloco de código associado.
+            
+                    if condição:
+                        # código a ser executado se a condição for verdadeira
+                
+
+            2. else: É usado após um if. Executa o bloco de código associado se a condição do if for falsa.
+            
+                    if condição:
+                        # código a ser executado se a condição for verdadeira
+                    else:
+                        # código a ser executado se a condição for falsa
+
+
+            3. else if (elif em Python): Avalia uma nova condição se as condições anteriores forem falsas. Pode haver múltiplos else if.
+            
+                    if condição1:
+                        # código a ser executado se a condição1 for verdadeira
+                    elif condição2:
+                        # código a ser executado se a condição2 for verdadeira
+                    else:
+                        # código a ser executado se nenhuma das condições anteriores for verdadeira
+
+            
+            Exemplo Prático:
+
+                    idade = 18
+
+                    if idade < 18:
+                        print("Menor de idade")
+                    elif idade == 18:
+                        print("Acabou de se tornar maior de idade")
+                    else:
+                        print("Maior de idade")
+
+                Nesse exemplo:
+                Se a idade for menor que 18, imprime "Menor de idade".
+                Se a idade for igual a 18, imprime "Acabou de se tornar maior de idade".
+                Caso contrário, imprime "Maior de idade".
